@@ -1,0 +1,11 @@
+const { john, ali } = require("./names");
+const sayHi = require("./utils");
+const data = require("./alternative");
+const { add, sub } = require("./calculator");
+// sayHi("Susan");
+// console.log(john);
+// console.log(ali);
+// console.log(data);
+// console.log(items);
+add(1, 2, 4, 5, 6);
+sub(5, 1, 2);
